@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+html,body,#root,.app,.content{
+  height: 100%;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.app{
+  display: flex;
+  position: relative;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+::-webkit-scrollbar-track:hover{
+background: #555;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+  position: fixed!important;
+}
+
+/* ////////////// */
+@media only screen and (max-width: 991px) {
+  .pro-sidebar {
+    width: 242px!important;
+    min-width: 242px!important;
+  }
+/* 
+  .css-ux41wm-MuiTypography-root {
+    margin: 15px 0 5px 5px!important;
+}
+.css-c2xc9r .pro-inner-item {
+  padding: 5px 20px 5px 8px!important;
+} */
+}
